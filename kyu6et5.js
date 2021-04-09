@@ -22,3 +22,5 @@ function solution2(string) {
     }
     return newString;
 }
+
+//test
