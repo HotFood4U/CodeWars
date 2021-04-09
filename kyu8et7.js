@@ -43,3 +43,9 @@ function paul(x) {
     }
 }
 
+// kyu 7 : Billiards pyramid
+function pyramid(balls) {
+    return Math.floor((Math.sqrt(balls * 8 + 1) - 1) / 2);
+}
+
+
