@@ -48,4 +48,13 @@ function pyramid(balls) {
     return Math.floor((Math.sqrt(balls * 8 + 1) - 1) / 2);
 }
 
+// kyu 7 : Drone Fly-By
+function flyBy(lamps, drone) {
+    lamps = lamps.split('');
 
+    for (let i = 0; i < drone.length; i++) {
+        if (lamps[i] === 'x') lamps[i] = 'o';
+    }
+
+    return lamps.join('');
+}
